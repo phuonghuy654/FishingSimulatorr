@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e66e4739e3b45e488d7655f4ed28948, type: 3}
+  m_Name: Spot_01_QuietLake
+  m_EditorClassIdentifier: 
+  availableFish:
+  - fishData: {fileID: 11400000, guid: 48617e684d0a91543aa5a4115d85dfe3, type: 2}
+    spawnChance: 0.35
+  - fishData: {fileID: 11400000, guid: 81cf40bdc3ba5b442b447527216e3f4c, type: 2}
+    spawnChance: 0.3
+  - fishData: {fileID: 11400000, guid: 09b3117f8b993f745bac9f013bab1cc7, type: 2}
+    spawnChance: 0.2
+  - fishData: {fileID: 11400000, guid: b547f9c1333ac564e9fba2f2060656cf, type: 2}
+    spawnChance: 0.1
+  - fishData: {fileID: 11400000, guid: 4fd88bba27757b74daf66f52fcfe3bfc, type: 2}
+    spawnChance: 0.05

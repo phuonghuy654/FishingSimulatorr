@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8304c8bc241a86245ac3ed1b02455fbb, type: 3}
+  m_Name: Fish_2_05_GiantGourami
+  m_EditorClassIdentifier: 
+  CostPerKg: 40
+  baseProgressThreshold: 225
+  baseSlippage: 80
+  baseProgressDrain: 30
+  minTargetMoveInterval: 1.8
+  maxTargetMoveInterval: 3
+  playerPullAgainst: 58
+  fishName: Giant Gourami
+  minWeight: 4
+  maxWeight: 8
+  rarity: 4
+  fishPrefab: {fileID: 1351629267974681211, guid: a4c0b94b391338d48be283ac26c2c206,
+    type: 3}
+  fishIcon: {fileID: 2104538251, guid: 95798dba65e71cd4aa0872f6a5c06d23, type: 3}
+  sellPrice: 0

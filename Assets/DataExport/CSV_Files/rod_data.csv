@@ -1,0 +1,6 @@
+FileName,rodName,pullPower,price,iconFileName
+Rod_01_Starter,Starter Rod,20,0,icon_rod_starter.png
+Rod_02_Silver,Silver-line Rod,25,90,icon_rod_silver.png
+Rod_03_Carbon,Carbon Rod,30,900,icon_rod_carbon.png
+Rod_04_DeepSea,Deep Sea Rod,35,3250,icon_rod_deepsea.png
+Rod_05_Legend,Legendary Rod,40,12800,icon_rod_legend.png

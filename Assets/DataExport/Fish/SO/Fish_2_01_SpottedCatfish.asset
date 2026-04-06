@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8304c8bc241a86245ac3ed1b02455fbb, type: 3}
+  m_Name: Fish_2_01_SpottedCatfish
+  m_EditorClassIdentifier: 
+  CostPerKg: 18
+  baseProgressThreshold: 190
+  baseSlippage: 65
+  baseProgressDrain: 22.5
+  minTargetMoveInterval: 2.5
+  maxTargetMoveInterval: 4
+  playerPullAgainst: 68
+  fishName: Spotted Catfish
+  minWeight: 2
+  maxWeight: 4
+  rarity: 2
+  fishPrefab: {fileID: 8319600890347462754, guid: c62dda5aa5b14054c9b5327d48bff4cb,
+    type: 3}
+  fishIcon: {fileID: 1612553370, guid: ed9e42be3593091439f77f38b7a37fa0, type: 3}
+  sellPrice: 0

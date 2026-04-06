@@ -1,0 +1,11 @@
+Model Information:
+* title:	Non-textured burning torch (4)
+* source:	https://sketchfab.com/3d-models/non-textured-burning-torch-4-9cc957723157400fbf6373aee17e438a
+* author:	Orpind (https://sketchfab.com/leondp)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Non-textured burning torch (4)" (https://sketchfab.com/3d-models/non-textured-burning-torch-4-9cc957723157400fbf6373aee17e438a) by Orpind (https://sketchfab.com/leondp) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITK/INGAME/InGameHUD.uss?fileID=7433441132597879392&amp;guid=6d74cdd2927cc6640b8036cfe9176ce0&amp;type=3#InGameHUD" />
+    <ui:VisualElement class="travel-card">
+        <ui:VisualElement name="travel-card-image" class="travel-card__image">
+            <ui:Label text="[Image]" style="color: rgba(0, 0, 0, 0.4);" />
+        </ui:VisualElement>
+        <ui:Label name="travel-card-name" text="Location Name" class="travel-card__name" />
+        <ui:Label name="travel-card-description" text="A description of the location goes here." class="travel-card__description" />
+        <ui:VisualElement class="travel-card__cost">
+            <ui:Label text="Cost: " />
+            <ui:Label name="travel-card-cost-value" text="Free" />
+        </ui:VisualElement>
+        <ui:Button name="travel-button" text="Travel" class="travel-button" />
+    </ui:VisualElement>
+</ui:UXML>

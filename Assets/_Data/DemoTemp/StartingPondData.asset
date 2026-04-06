@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e66e4739e3b45e488d7655f4ed28948, type: 3}
+  m_Name: StartingPondData
+  m_EditorClassIdentifier: 
+  availableFish:
+  - fishData: {fileID: 11400000, guid: 9ed5143411e93004cb0baad32ef5213b, type: 2}
+    spawnChance: 0.4
+  - fishData: {fileID: 11400000, guid: a195fe7f0609a964e919b30c86bc07af, type: 2}
+    spawnChance: 0.35
+  - fishData: {fileID: 11400000, guid: ff7c7de744a3def43badb2e0a7c34e66, type: 2}
+    spawnChance: 0.25

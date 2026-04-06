@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e66e4739e3b45e488d7655f4ed28948, type: 3}
+  m_Name: Spot_05_OceanicAbyss
+  m_EditorClassIdentifier: 
+  availableFish:
+  - fishData: {fileID: 11400000, guid: a8ad6fad05e38ee45b545cf568441626, type: 2}
+    spawnChance: 0.35
+  - fishData: {fileID: 11400000, guid: 0a94de179dbf4a54b9d669eb9493c576, type: 2}
+    spawnChance: 0.3
+  - fishData: {fileID: 11400000, guid: 50a8866ce3c9eaf4e9ecc691d5200810, type: 2}
+    spawnChance: 0.2
+  - fishData: {fileID: 11400000, guid: a508ceb83791cd74ab392fd621fa0836, type: 2}
+    spawnChance: 0.1
+  - fishData: {fileID: 11400000, guid: 5e5ceebfc77cd8548bdde181ef1dc378, type: 2}
+    spawnChance: 0.05

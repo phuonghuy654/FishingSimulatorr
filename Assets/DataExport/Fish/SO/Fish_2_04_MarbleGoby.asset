@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8304c8bc241a86245ac3ed1b02455fbb, type: 3}
+  m_Name: Fish_2_04_MarbleGoby
+  m_EditorClassIdentifier: 
+  CostPerKg: 30
+  baseProgressThreshold: 210
+  baseSlippage: 75
+  baseProgressDrain: 28
+  minTargetMoveInterval: 2
+  maxTargetMoveInterval: 3.2
+  playerPullAgainst: 60
+  fishName: Marble Goby
+  minWeight: 3.5
+  maxWeight: 7
+  rarity: 4
+  fishPrefab: {fileID: 6133020418537047270, guid: 595e86e579466424ca178e42c7ee7c84,
+    type: 3}
+  fishIcon: {fileID: 901833632, guid: 49719676442aac04eba2481b127d8b1c, type: 3}
+  sellPrice: 0

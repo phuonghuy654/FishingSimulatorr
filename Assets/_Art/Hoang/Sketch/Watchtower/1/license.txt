@@ -1,0 +1,11 @@
+Model Information:
+* title:	Viking Watchtower
+* source:	https://sketchfab.com/3d-models/viking-watchtower-5fb06e34a1df4e818710cd40497c2eee
+* author:	Sereib (https://sketchfab.com/Sereib)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Viking Watchtower" (https://sketchfab.com/3d-models/viking-watchtower-5fb06e34a1df4e818710cd40497c2eee) by Sereib (https://sketchfab.com/Sereib) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

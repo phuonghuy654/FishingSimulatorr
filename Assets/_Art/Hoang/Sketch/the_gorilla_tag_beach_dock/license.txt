@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Gorilla Tag Beach Dock
+* source:	https://sketchfab.com/3d-models/the-gorilla-tag-beach-dock-7ee67f34807a4a2889b469f54a60fdca
+* author:	KPMisParrot (https://sketchfab.com/KPMisParrot)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Gorilla Tag Beach Dock" (https://sketchfab.com/3d-models/the-gorilla-tag-beach-dock-7ee67f34807a4a2889b469f54a60fdca) by KPMisParrot (https://sketchfab.com/KPMisParrot) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

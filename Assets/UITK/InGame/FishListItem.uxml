@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITK/INGAME/InGameHUD.uss?fileID=7433441132597879392&amp;guid=6d74cdd2927cc6640b8036cfe9176ce0&amp;type=3#InGameHUD" />
+    <ui:VisualElement class="fish-list-item">
+        <ui:VisualElement name="fish-icon" class="fish-list-item__icon" />
+        <ui:Label name="fish-name" text="Common Carp" class="fish-list-item__name" />
+        <ui:Label name="fish-weight" text="1.23 kg" class="fish-list-item__weight" />
+        <ui:VisualElement class="fish-list-item__price-container">
+            <ui:VisualElement class="money-icon-small" />
+            <ui:Label name="fish-price" text="150" class="fish-list-item__price" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,236 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITK/InGame/InGameHUD.uss?fileID=7433441132597879392&amp;guid=6d74cdd2927cc6640b8036cfe9176ce0&amp;type=3#InGameHUD" />
+
+    <ui:Button name="pause-button" text="❚❚" class="pause-button" />
+
+    <ui:VisualElement name="dim-overlay" class="dim-overlay" /> <ui:VisualElement name="pause-menu" class="pause-menu"> <ui:Label text="Paused" class="pause-menu__title" />
+        <ui:Button name="resume-button" text="Resume" class="pause-menu__button" />
+        <ui:Button name="inventory-button" text="Inventory" class="pause-menu__button" />
+        <ui:Button name="settings-button-pause" text="Settings" class="pause-menu__button" />
+        <ui:Button name="how-to-play-button" text="How to Play" class="pause-menu__button" />
+        <ui:Button name="main-menu-button" text="Main Menu" class="pause-menu__button" />
+        <ui:Button name="quit-button-pause" text="Quit Game" class="pause-menu__button" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="settings-panel-ingame" class="shop-sell-container"> <ui:VisualElement name="settings-panel-content" class="shop-sell-content settings-panel-content">
+            <ui:Label text="Settings" class="settings-panel__title" />
+            <ui:VisualElement class="settings-panel__option">
+                <ui:Label text="Music" class="settings-panel__label" />
+                <ui:VisualElement class="slider-container">
+                    <ui:Slider name="music-volume-slider" low-value="0" high-value="1" value="1" class="settings-panel__slider" />
+                    <ui:Label name="music-volume-label" text="100" class="slider-value-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="settings-panel__option">
+                <ui:Label text="Sound FX" class="settings-panel__label" />
+                <ui:VisualElement class="slider-container">
+                    <ui:Slider name="sfx-volume-slider" low-value="0" high-value="1" value="1" class="settings-panel__slider" />
+                    <ui:Label name="sfx-volume-label" text="100" class="slider-value-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="separator" />
+            <ui:VisualElement class="settings-panel__option">
+                <ui:Label text="Fullscreen" class="settings-panel__label" />
+                <ui:Toggle name="fullscreen-toggle-ingame" value="true" />
+            </ui:VisualElement>
+            <ui:VisualElement class="settings-panel__option">
+                <ui:Label text="Graphics" class="settings-panel__label" />
+                <ui:DropdownField name="quality-dropdown-ingame" index="0" />
+            </ui:VisualElement>
+            <ui:VisualElement class="separator" />
+            <ui:VisualElement class="settings-panel__option">
+                <ui:Label text="Controls" class="settings-panel__label" />
+                <ui:Button name="configure-controls-button" text="Configure" class="settings-panel__button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="settings-panel__option">
+                <ui:Label text="Language" class="settings-panel__label" />
+                <ui:DropdownField name="language-dropdown" index="0" class="settings-panel__dropdown" />
+            </ui:VisualElement>
+            <ui:Button name="back-button-settings" class="menu-button menu-button--back">
+    <ui:Label text="&lt; Back" class="menu-button__label" />
+</ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="controls-panel-ingame" class="shop-sell-container"> <ui:VisualElement name="controls-panel-content" class="shop-sell-content controls-panel-content">
+            <ui:Label text="Controls" class="settings-panel__title" />
+            <ui:VisualElement class="controls-panel__option">
+                <ui:Label text="Cast / Reel" class="settings-panel__label" />
+                <ui:Button name="keybind-cast" text="[ LMB ]" class="keybind-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="controls-panel__option">
+                <ui:Label text="Open Inventory / Shop" class="settings-panel__label" />
+                <ui:Button name="keybind-inventory" text="[ I ]" class="keybind-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="controls-panel__option">
+                <ui:Label text="Pause / Menu" class="settings-panel__label" />
+                <ui:Button name="keybind-pause" text="[ ESC ]" class="keybind-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="separator" style="margin-top: 15px; margin-bottom: 15px;" />
+            <ui:Button name="reset-controls-button" text="Reset to Default" class="settings-panel__button" style="align-self: center;" />
+            <ui:Button name="back-button-controls" text="Back" class="settings-back-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="how-to-play-panel" class="shop-sell-container"> <ui:VisualElement name="htp-panel-content" class="shop-sell-content htp-panel-content">
+            <ui:Label text="How to Play" class="settings-panel__title" />
+            <ui:VisualElement class="tab-container" style="justify-content: center; margin-bottom: 20px;">
+                <ui:Button text="Casting" name="htp-tab-casting" class="tab-button tab-button--active" />
+                <ui:Button text="Reeling" name="htp-tab-reeling" class="tab-button" />
+                <ui:Button text="Selling" name="htp-tab-selling" class="tab-button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="htp-content-casting" class="htp-tab-content">
+                <ui:ScrollView class="htp-scroll-view">
+                    <ui:Label text="1. Charge Your Cast" class="htp-h3" />
+                    <ui:Label text="Press and hold the Left Mouse Button..." class="htp-p" />
+                    <ui:VisualElement class="diagram-placeholder"><ui:Label text="[Diagram: Casting Bar Oscillating]" /></ui:VisualElement>
+                    <ui:Label text="2. Wait for a Bite" class="htp-h3" />
+                    <ui:Label text="After casting, an animated '...' icon will appear..." class="htp-p" />
+                     <ui:VisualElement class="diagram-placeholder"><ui:Label text="[Icon: ...]" /></ui:VisualElement>
+                    <ui:Label text="3. Hook the Fish!" class="htp-h3" />
+                    <ui:Label text="When the '!' icon appears, Click immediately..." class="htp-p" />
+                    <ui:VisualElement class="diagram-placeholder"><ui:Label text="[Icon: !]" /></ui:VisualElement>
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="htp-content-reeling" class="htp-tab-content hidden">
+                <ui:ScrollView class="htp-scroll-view">
+                     <ui:Label text="1. The Minigame" class="htp-h3" />
+                    <ui:Label text="The reeling minigame will begin..." class="htp-p" />
+                    <ui:VisualElement class="diagram-placeholder"><ui:Label text="[Diagram: Minigame UI]" /></ui:VisualElement>
+                    <ui:Label text="2. Control Your Target" class="htp-h3" />
+                     <ui:Label text="Press and hold the Left Mouse Button to move..." class="htp-p" />
+                    <ui:Label text="3. Catch the Fish" class="htp-h3" />
+                    <ui:Label text="Your goal is to keep your blue target bar..." class="htp-p" />
+                    <ui:Label text="4. Win or Lose" class="htp-h3" />
+                    <ui:Label text="Fill the progress bar to 100%..." class="htp-p" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="htp-content-selling" class="htp-tab-content hidden">
+                 <ui:ScrollView class="htp-scroll-view">
+                     <ui:Label text="1. Accessing the Shop" class="htp-h3" />
+                    <ui:Label text="You can open the Shop/Sell panel by pressing..." class="htp-p" />
+                    <ui:VisualElement class="diagram-placeholder"><ui:Label text="[Image: Shop Panel]" /></ui:VisualElement>
+                    <ui:Label text="2. Selling Fish" class="htp-h3" />
+                    <ui:Label text="In the 'Sell' tab, click the 'Sell All' button..." class="htp-p" />
+                    <ui:Label text="3. Buying Items" class="htp-h3" />
+                    <ui:Label text="Click the 'Shop' tab to see items for sale..." class="htp-p" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement class="panel-footer">
+                <ui:Button name="back-button-htp" text="Back" class="settings-back-button" style="align-self: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="inventory-panel" class="shop-sell-container"> <ui:VisualElement name="inventory-panel-content" class="shop-sell-content inventory-panel-content">
+            <ui:Label text="Inventory" class="settings-panel__title" />
+            <ui:VisualElement class="inventory-player-info">
+                <ui:Label name="inv-money-label" text="Money: 5,000" />
+                <ui:Label name="inv-rod-label" text="Current Rod: Basic Rod" />
+            </ui:VisualElement>
+            <ui:VisualElement class="tab-container" style="justify-content: center; margin-bottom: 15px;">
+                <ui:Button text="Fish" name="inv-tab-fish" class="tab-button tab-button--active" />
+                <ui:Button text="Rods" name="inv-tab-rods" class="tab-button" />
+                <ui:Button text="Items" name="inv-tab-items" class="tab-button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="inv-content-fish" class="htp-tab-content">
+                <ui:ScrollView name="inventory-fish-list" class="fish-list" />
+            </ui:VisualElement>
+            <ui:VisualElement name="inv-content-rods" class="htp-tab-content hidden">
+                <ui:ScrollView name="inventory-rod-list" class="fish-list" />
+            </ui:VisualElement>
+            <ui:VisualElement name="inv-content-items" class="htp-tab-content hidden">
+                <ui:ScrollView name="inventory-item-list" class="fish-list" />
+            </ui:VisualElement>
+            <ui:VisualElement class="panel-footer">
+                <ui:Button name="close-inventory-button" text="Close" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="travel-panel" class="shop-sell-container"> <ui:VisualElement name="travel-panel-content" class="shop-sell-content travel-panel-content">
+            <ui:Label text="Travel Points" class="settings-panel__title" />
+            <ui:ScrollView name="travel-scroll-view" class="travel-card-scroller" mode="Horizontal">
+                
+                <ui:VisualElement name="travel-card-list" class="travel-card-list-container" />
+
+            </ui:ScrollView>
+            <ui:VisualElement class="panel-footer">
+                <ui:Button name="close-travel-button" text="Close" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="hud-container" class="hud-container" picking-mode="Ignore">
+        <ui:VisualElement name="player-info-stack" class="player-info-stack" picking-mode="Ignore">
+            <ui:VisualElement name="money-info" class="info-box info-box--first">
+                <ui:VisualElement class="info-item__icon money-icon" />
+                <ui:Label text="5,000" name="money-label" class="info-item__text" /> </ui:VisualElement>
+            <ui:VisualElement name="rod-info" class="info-box">
+                <ui:VisualElement class="info-item__icon rod-icon" />
+                <ui:Label text="Basic Rod" name="rod-label" class="info-item__text" /> </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="sell-panel" class="shop-sell-container"> <ui:VisualElement name="sell-panel__content" class="shop-sell-content">
+            <ui:VisualElement class="panel-header">
+                <ui:VisualElement class="tab-container">
+                    <ui:Button text="Sell" name="sell-tab-button--from-sell" class="tab-button tab-button--active" />
+                    <ui:Button text="Shop" name="shop-tab-button--from-sell" class="tab-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ScrollView name="fish-list" class="fish-list" />
+            <ui:VisualElement class="panel-footer">
+                <ui:Label text="Total: 0" name="total-value-label" class="total-value-label" /> <ui:VisualElement class="button-container">
+                    <ui:Button text="Close" name="close-sell-button" class="menu-button menu-button--first" />
+                    <ui:Button text="Sell All" name="sell-all-button" class="menu-button menu-button--confirm" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="shop-panel" class="shop-sell-container"> <ui:VisualElement name="shop-panel__content" class="shop-sell-content">
+            <ui:VisualElement class="panel-header">
+                <ui:VisualElement class="tab-container">
+                    <ui:Button text="Sell" name="sell-tab-button--from-shop" class="tab-button" />
+                    <ui:Button text="Shop" name="shop-tab-button--from-shop" class="tab-button tab-button--active" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ScrollView name="shop-item-list" class="shop-item-list" />
+            <ui:VisualElement class="panel-footer">
+                <ui:Label text="Your Money: 5,000" name="shop-money-label" class="total-value-label" /> <ui:VisualElement class="button-container">
+                    <ui:Button text="Close" name="close-shop-button" class="menu-button menu-button--first" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+   <ui:VisualElement name="loading-screen" class="loading-screen">
+    <ui:VisualElement name="loading-logo" class="loading-logo" />
+</ui:VisualElement>
+
+    <ui:VisualElement name="minigame-container" class="minigame-container"> <ui:VisualElement class="progress-bar-track">
+            <ui:VisualElement name="minigame-progress" class="progress-bar-fill" />
+        </ui:VisualElement>
+        <ui:VisualElement class="control-bar">
+            <ui:VisualElement name="fish-zone" class="minigame-zone fish-zone" />
+            <ui:VisualElement name="player-target" class="minigame-zone player-target" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="waiting-indicator" class="waiting-indicator hidden" picking-mode="Ignore">
+        <ui:Label text="." /> <ui:Label text="." /> <ui:Label text="." />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="bite-indicator" class="bite-indicator hidden" picking-mode="Ignore">
+        <ui:Label text="!" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="casting-container" class="casting-container hidden" picking-mode="Ignore">
+        <ui:Label text="Casting Power" class="casting-label" />
+        <ui:VisualElement class="casting-bar-track">
+            <ui:VisualElement name="casting-bar-fill" class="casting-bar-fill" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+</ui:UXML>

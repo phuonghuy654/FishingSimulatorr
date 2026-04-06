@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Boat
+* source:	https://sketchfab.com/3d-models/wooden-boat-77ac6ee9b69e49179279da0fb2560efa
+* author:	lpfeffer (https://sketchfab.com/lpfeffer)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Boat" (https://sketchfab.com/3d-models/wooden-boat-77ac6ee9b69e49179279da0fb2560efa) by lpfeffer (https://sketchfab.com/lpfeffer) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

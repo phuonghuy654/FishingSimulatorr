@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cozy Cabin
+* source:	https://sketchfab.com/3d-models/cozy-cabin-4b3105509f6148ec87882e3d0cdb5af7
+* author:	LT96 (https://sketchfab.com/LT96)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cozy Cabin" (https://sketchfab.com/3d-models/cozy-cabin-4b3105509f6148ec87882e3d0cdb5af7) by LT96 (https://sketchfab.com/LT96) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

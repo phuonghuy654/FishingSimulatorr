@@ -1,0 +1,11 @@
+Model Information:
+* title:	OCF Waypoint
+* source:	https://sketchfab.com/3d-models/ocf-waypoint-2be88fcca75f4550b78c8a74945b4943
+* author:	hartro (https://sketchfab.com/harry.troeger)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "OCF Waypoint" (https://sketchfab.com/3d-models/ocf-waypoint-2be88fcca75f4550b78c8a74945b4943) by hartro (https://sketchfab.com/harry.troeger) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

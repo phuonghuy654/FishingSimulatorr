@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e66e4739e3b45e488d7655f4ed28948, type: 3}
+  m_Name: KhuVucSucVat
+  m_EditorClassIdentifier: 
+  availableFish:
+  - fishData: {fileID: 11400000, guid: 4726f8275aba9554f9bf2db2a56775be, type: 2}
+    spawnChance: 0
+  - fishData: {fileID: 11400000, guid: 1c824a68e0b18e9449f79fb5636bdc5b, type: 2}
+    spawnChance: 0

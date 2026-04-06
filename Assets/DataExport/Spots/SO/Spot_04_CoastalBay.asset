@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e66e4739e3b45e488d7655f4ed28948, type: 3}
+  m_Name: Spot_04_CoastalBay
+  m_EditorClassIdentifier: 
+  availableFish:
+  - fishData: {fileID: 11400000, guid: ec473a69082a4c648978a2c5c3ec6e39, type: 2}
+    spawnChance: 0.35
+  - fishData: {fileID: 11400000, guid: 42bd4ea253f3f9d4e8d574c10822722e, type: 2}
+    spawnChance: 0.3
+  - fishData: {fileID: 11400000, guid: bf143e66f6a7d2d4ab01ac1b04b27752, type: 2}
+    spawnChance: 0.2
+  - fishData: {fileID: 11400000, guid: fc799dafc12a4a149b022671d01e7788, type: 2}
+    spawnChance: 0.1
+  - fishData: {fileID: 11400000, guid: 01ea2b4063f9ed54685c7e37ee7824d7, type: 2}
+    spawnChance: 0.05

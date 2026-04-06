@@ -1,0 +1,11 @@
+Model Information:
+* title:	Moai sculpture - Tahiti Gil
+* source:	https://sketchfab.com/3d-models/moai-sculpture-tahiti-gil-ebc747f30af045e19a4b20458ea3421a
+* author:	TheDarkSunProject (https://sketchfab.com/darksunproject)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Moai sculpture - Tahiti Gil" (https://sketchfab.com/3d-models/moai-sculpture-tahiti-gil-ebc747f30af045e19a4b20458ea3421a) by TheDarkSunProject (https://sketchfab.com/darksunproject) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

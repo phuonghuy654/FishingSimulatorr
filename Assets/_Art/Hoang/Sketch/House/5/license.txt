@@ -1,0 +1,11 @@
+Model Information:
+* title:	Relaxed Beach
+* source:	https://sketchfab.com/3d-models/relaxed-beach-afa143803546425a82650425d3f9e63a
+* author:	TrCold (https://sketchfab.com/TrCold)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Relaxed Beach" (https://sketchfab.com/3d-models/relaxed-beach-afa143803546425a82650425d3f9e63a) by TrCold (https://sketchfab.com/TrCold) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

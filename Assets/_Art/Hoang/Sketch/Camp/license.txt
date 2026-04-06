@@ -1,0 +1,11 @@
+Model Information:
+* title:	camping_set_final
+* source:	https://sketchfab.com/3d-models/camping-set-final-67ae2a894b4c44a5af07f2cb0a82827a
+* author:	Lili.kearvell (https://sketchfab.com/Lili.kearvell)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "camping_set_final" (https://sketchfab.com/3d-models/camping-set-final-67ae2a894b4c44a5af07f2cb0a82827a) by Lili.kearvell (https://sketchfab.com/Lili.kearvell) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

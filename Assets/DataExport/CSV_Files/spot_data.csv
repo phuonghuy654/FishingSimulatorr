@@ -1,0 +1,6 @@
+FileName,Fish1_FileName,Fish1_Chance,Fish2_FileName,Fish2_Chance,Fish3_FileName,Fish3_Chance,Fish4_FileName,Fish4_Chance,Fish5_FileName,Fish5_Chance
+Spot_01_QuietLake,Fish_1_01_Sunfish,0.35,Fish_1_02_RiverSprat,0.30,Fish_1_03_GrassCarp,0.20,Fish_1_04_FieldPerch,0.10,Fish_1_05_GoldenPerch,0.05
+Spot_02_DeepRiver,Fish_2_01_SpottedCatfish,0.35,Fish_2_02_BlackCarp,0.30,Fish_2_03_RiverCatfish,0.20,Fish_2_04_MarbleGoby,0.10,Fish_2_05_GiantGourami,0.05
+Spot_03_MangroveMarsh,Fish_3_01_Snakehead,0.35,Fish_3_02_ClownFeatherback,0.30,Fish_3_03_SilverPomfret,0.20,Fish_3_04_MangroveSnapper,0.10,Fish_3_05_AlligatorGar,0.05
+Spot_04_CoastalBay,Fish_4_01_RedSnapper,0.35,Fish_4_02_Amberjack,0.30,Fish_4_03_StarGrouper,0.20,Fish_4_04_Sailfish,0.10,Fish_4_05_YellowfinTuna,0.05
+Spot_05_OceanicAbyss,Fish_5_01_ReefShark,0.35,Fish_5_02_BlueMarlin,0.30,Fish_5_03_GiantOpah,0.20,Fish_5_04_MantaRay,0.10,Fish_5_05_Orca,0.05

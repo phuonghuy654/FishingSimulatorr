@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8304c8bc241a86245ac3ed1b02455fbb, type: 3}
+  m_Name: Fish_3_04_MangroveSnapper
+  m_EditorClassIdentifier: 
+  CostPerKg: 65
+  baseProgressThreshold: 245
+  baseSlippage: 92
+  baseProgressDrain: 35
+  minTargetMoveInterval: 1.6
+  maxTargetMoveInterval: 2.4
+  playerPullAgainst: 48
+  fishName: Mangrove Snapper
+  minWeight: 5
+  maxWeight: 10
+  rarity: 5
+  fishPrefab: {fileID: 5137832725255186047, guid: 153942e0382d24f4086533253c953a1a,
+    type: 3}
+  fishIcon: {fileID: 2088785367, guid: 6728ac96ea370a742a4ab5c2a1c2224b, type: 3}
+  sellPrice: 0

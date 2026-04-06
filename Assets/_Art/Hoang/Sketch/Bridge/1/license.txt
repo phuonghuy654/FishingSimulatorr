@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Bridge Basic
+* source:	https://sketchfab.com/3d-models/wooden-bridge-basic-eff9c1b5846a4c28a3426ae8cf4c99a5
+* author:	Alex Gimson (https://sketchfab.com/alexgimson)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Bridge Basic" (https://sketchfab.com/3d-models/wooden-bridge-basic-eff9c1b5846a4c28a3426ae8cf4c99a5) by Alex Gimson (https://sketchfab.com/alexgimson) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

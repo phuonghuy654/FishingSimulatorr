@@ -1,0 +1,61 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITK/UserInterface.uss?fileID=7433441132597879392&amp;guid=b7d120d6f5a24fc4ebc949f2285738b3&amp;type=3#UserInterface" />
+    <ui:VisualElement name="main-menu-container" class="main-menu-container">
+        <ui:VisualElement name="side-panel" class="side-panel">
+            <ui:VisualElement name="game-logo" class="game-logo" />
+            <ui:VisualElement name="button-group" class="button-group">
+                <ui:Button name="continue-button" class="menu-button">
+                    <ui:VisualElement name="indicator" class="menu-button__indicator" />
+                    <ui:Label text="Continue" class="menu-button__label" />
+                </ui:Button>
+                <ui:Button name="new-game-button" class="menu-button">
+                    <ui:VisualElement name="indicator" class="menu-button__indicator" />
+                    <ui:Label text="New Game" class="menu-button__label" />
+                </ui:Button>
+                <ui:VisualElement class="separator" />
+                <ui:Button name="settings-button" class="menu-button">
+                    <ui:VisualElement name="indicator" class="menu-button__indicator" />
+                    <ui:Label text="Settings" class="menu-button__label" />
+                </ui:Button>
+                <ui:VisualElement class="separator" />
+                <ui:Button name="quit-button" class="menu-button menu-button--quit">
+                    <ui:VisualElement name="indicator" class="menu-button__indicator" />
+                    <ui:Label text="Quit" class="menu-button__label" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-panel" class="settings-panel hidden">
+                <ui:Label text="Settings" class="settings-panel__title" />
+                <ui:VisualElement class="settings-panel__option">
+                    <ui:Label text="Music" class="settings-panel__label" />
+                    <ui:VisualElement class="slider-container">
+                        <ui:Slider name="music-volume-slider" low-value="0" high-value="1" value="1" class="settings-panel__slider" />
+                        <ui:Label name="music-volume-label" text="100" class="slider-value-label" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="settings-panel__option">
+                    <ui:Label text="Sound FX" class="settings-panel__label" />
+                    <ui:VisualElement class="slider-container">
+                        <ui:Slider name="sfx-volume-slider" low-value="0" high-value="1" value="1" class="settings-panel__slider" />
+                        <ui:Label name="sfx-volume-label" text="100" class="slider-value-label" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="separator" />
+                <ui:VisualElement class="settings-panel__option">
+                    <ui:Label text="Fullscreen" class="settings-panel__label" />
+                    <ui:Toggle name="fullscreen-toggle" value="true" />
+                </ui:VisualElement>
+                <ui:VisualElement class="settings-panel__option">
+                    <ui:Label text="Graphics" class="settings-panel__label" />
+                    <ui:DropdownField name="quality-dropdown" index="0" />
+                </ui:VisualElement>
+                <ui:Button name="back-button" class="menu-button menu-button--back">
+                    <ui:Label text="&lt; Back" class="menu-button__label" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:Label text="v1.0.3" name="version-text" class="version-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="loading-screen" class="loading-screen">
+    <ui:VisualElement name="loading-logo" class="loading-logo" />
+</ui:VisualElement>
+</ui:UXML>

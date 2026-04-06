@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6abfbb81d02566f43b991759271e3874, type: 3}
+  m_Name: RodDatabase
+  m_EditorClassIdentifier: 
+  allRods:
+  - {fileID: 11400000, guid: 3a68b45d1b3834740a2b9b10d3d1b1c3, type: 2}
+  - {fileID: 11400000, guid: 8f6ca63cd0349424f82f45463c7a4079, type: 2}
+  - {fileID: 11400000, guid: f0e5da1f9843d6544b4a02454e4ef9a4, type: 2}

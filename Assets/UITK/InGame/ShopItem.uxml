@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITK/INGAME/InGameHUD.uss?fileID=7433441132597879392&amp;guid=6d74cdd2927cc6640b8036cfe9176ce0&amp;type=3#InGameHUD" />
+    <ui:VisualElement class="shop-item">
+        <ui:VisualElement name="item-icon" class="shop-item__icon" />
+        <ui:VisualElement class="shop-item__details">
+            <ui:Label name="item-name" text="Graphite Rod" class="shop-item__name" />
+            <ui:Label name="item-stats" text="Pull Power: 25" class="shop-item__stats" />
+        </ui:VisualElement>
+        <ui:VisualElement class="shop-item__actions">
+            <ui:VisualElement class="price-container">
+                <ui:VisualElement class="money-icon-small" />
+                <ui:Label name="item-price" text="1,500" class="shop-item__price" />
+            </ui:VisualElement>
+            <ui:Button text="Buy" name="buy-button" class="buy-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

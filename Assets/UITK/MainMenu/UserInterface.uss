@@ -1,0 +1,351 @@
+:root {
+    --color-bg-deep: rgb(26, 37, 47);
+    --color-bg-panel: rgb(44, 62, 80);
+    --color-bg-element: rgb(52, 73, 94);
+    --color-bg-element-hover: rgb(76, 106, 133);
+    --color-bg-list-hover: rgba(52, 73, 94, 0.5);
+
+    --color-accent-primary: rgb(93, 173, 226);
+    --color-accent-primary-hover: rgb(133, 193, 233);
+    --color-accent-secondary: rgb(243, 156, 18);
+    --color-accent-success: rgb(46, 204, 113);
+    --color-accent-alert: rgb(255, 100, 100);
+    
+    --color-text-primary: rgb(236, 240, 241);
+    --color-text-secondary: rgb(189, 195, 199);
+    --color-text-disabled: rgb(149, 165, 166);
+    --color-text-dark: rgb(26, 37, 47);
+
+    --color-border: rgba(236, 240, 241, 0.1);
+    --color-border-dark: rgba(0, 0, 0, 0.2);
+
+    --transition-fast: 0.15s ease-out;
+    --transition-medium: 0.3s ease-out;
+    --transition-long: 0.4s ease-out;
+}
+
+.main-menu-container {
+    flex-grow: 1;
+    align-items: stretch;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    -unity-font-definition: url("project://database/Assets/UITK/Fonts/playfull_rocket/Playfull%20Rocket%20SDF%201.asset?fileID=11400000&guid=18029f107a94f5142913ba776c43c443&type=2#Playfull Rocket SDF 1");
+}
+
+.side-panel {
+    width: 480px;
+    height: 100%;
+    position: relative;
+    background-color: rgba(44, 62, 80, 0.85);
+    border-right-width: 1px;
+    border-right-color: var(--color-border);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    translate: -100% 0;
+    transition: translate 1s ease-in-out;
+}
+
+.side-panel.open {
+    translate: 0 0;
+}
+
+.game-logo {
+    height: 120px;
+    -unity-background-scale-mode: stretch-to-fill;
+    margin-bottom: 60px;
+    flex-shrink: 0;
+    background-image: url("project://database/Assets/UITK/Image/Site-logo.png?fileID=2800000&guid=32a5bfccb083bf0428154ddeadbaf074&type=3#Site-logo");
+}
+
+.button-group {
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.separator {
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 20px 0;
+}
+
+.menu-button {
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border-width: 0;
+    padding: 15px 0;
+    margin: 2px 0;
+}
+
+.menu-button__label {
+    font-size: 26px;
+    color: var(--color-text-secondary);
+    -unity-font-style: bold;
+    transition: color var(--transition-fast), translate var(--transition-fast);
+}
+
+.menu-button__indicator {
+    width: 5px;
+    height: 25px;
+    background-color: var(--color-accent-primary);
+    border-radius: 3px;
+    margin-right: 0;
+    opacity: 0;
+    transition: opacity var(--transition-medium), width var(--transition-medium), margin-right var(--transition-medium);
+}
+
+.menu-button:hover > .menu-button__indicator {
+    opacity: 1;
+    width: 10px;
+    margin-right: 20px;
+}
+
+.menu-button:hover > .menu-button__label {
+    color: var(--color-text-primary);
+    translate: 5px 0;
+}
+
+.menu-button--quit > .menu-button__label {
+    color: rgba(255, 100, 100, 0.8);
+}
+
+.menu-button--quit > .menu-button__indicator {
+    background-color: var(--color-accent-alert);
+}
+
+.menu-button--quit:hover > .menu-button__label {
+    color: var(--color-accent-alert);
+}
+
+.settings-panel {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.settings-panel__title {
+    font-size: 32px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    margin-bottom: 40px;
+    color: var(--color-accent-primary);
+}
+
+.settings-panel__option {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.settings-panel__label {
+    font-size: 24px;
+    color: var(--color-text-secondary);
+    -unity-font-style: bold;
+}
+
+.menu-button--back {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.menu-button--back > .menu-button__label {
+    color: var(--color-text-secondary);
+}
+
+.menu-button--back:hover > .menu-button__label {
+    color: var(--color-text-primary);
+    translate: 0 0;
+}
+
+Toggle .unity-toggle__input {
+    width: 50px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: var(--color-bg-element);
+    border-width: 0;
+    padding: 3px;
+    transition: background-color var(--transition-fast);
+}
+
+Toggle .unity-toggle__checkmark {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: var(--color-text-primary);
+    background-image: none;
+    margin-left: 0;
+    transition: margin-left var(--transition-fast);
+}
+
+Toggle:checked .unity-toggle__input {
+    background-color: var(--color-accent-primary);
+}
+
+Toggle:checked .unity-toggle__checkmark {
+    margin-left: 22px;
+}
+
+.slider-container {
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.settings-panel__slider {
+    flex-grow: 1;
+    width: auto;
+    align-items: center;
+}
+
+.slider-value-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: var(--color-text-secondary);
+    width: 50px;
+    -unity-text-align: middle-right;
+    margin-left: 10px;
+}
+
+.settings-panel__slider .unity-base-slider__input {
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--color-bg-element);
+}
+
+.settings-panel__slider .unity-base-slider__tracker {
+    background-color: transparent;
+}
+
+.settings-panel__slider .unity-base-slider__dragger {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--color-text-primary);
+    border-width: 2px;
+    border-color: var(--color-accent-primary);
+    transition: scale var(--transition-fast);
+    margin-top: -10px;
+}
+
+.settings-panel__slider:hover .unity-base-slider__dragger {
+    scale: 1.1 1.1;
+}
+
+.settings-panel__slider:active .unity-base-slider__dragger {
+    scale: 1.2 1.2;
+}
+
+.settings-panel__option DropdownField {
+    width: 200px;
+    transition: translate var(--transition-fast);
+}
+
+.settings-panel__option DropdownField:hover {
+    translate: 0 -2px;
+}
+
+.settings-panel__option DropdownField .unity-base-popup-field__input {
+    background-color: var(--color-bg-element);
+    border-color: var(--color-border);
+    border-width: 1px;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 5px 0 10px;
+    transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.settings-panel__option DropdownField .unity-base-popup-field__input:hover {
+    background-color: var(--color-bg-element-hover);
+    border-color: var(--color-accent-primary);
+}
+
+.settings-panel__option DropdownField .unity-base-popup-field__text {
+    color: var(--color-text-primary);
+    font-size: 18px;
+}
+
+.settings-panel__option DropdownField .unity-base-popup-field__arrow {
+    width: 12px;
+    height: 12px;
+    -unity-background-image-tint-color: var(--color-text-secondary);
+}
+
+.unity-base-dropdown__item {
+    background-color: var(--color-bg-element);
+    color: var(--color-text-primary);
+    height: 30px;
+    padding-left: 10px;
+    border-bottom-width: 1px;
+    border-color: var(--color-border);
+}
+
+.unity-base-dropdown__item:hover {
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-dark);
+}
+
+.unity-base-dropdown__checkmark {
+    -unity-background-image-tint-color: var(--color-text-primary);
+}
+
+.unity-base-dropdown__item:hover .unity-base-dropdown__checkmark {
+    -unity-background-image-tint-color: var(--color-text-dark);
+}
+
+.hidden {
+    display: none;
+}
+
+.version-text {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    font-size: 14px;
+    color: var(--color-text-disabled);
+}
+
+Toggle:hover .unity-toggle__input {
+    background-color: var(--color-bg-element-hover);
+}
+
+Toggle:checked:hover .unity-toggle__input {
+    background-color: var(--color-accent-primary-hover);
+}
+
+.loading-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-bg-deep);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 2s ease-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-screen.fade-in {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loading-logo {
+    width: 485px;
+    height: 206px;
+    -unity-background-scale-mode: stretch-to-fill;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    background-image: url("project://database/Assets/UITK/Image/Site-logo.png?fileID=2800000&guid=32a5bfccb083bf0428154ddeadbaf074&type=3#Site-logo");
+}
+
+.loading-screen.fade-in .loading-logo {
+    opacity: 1;
+}

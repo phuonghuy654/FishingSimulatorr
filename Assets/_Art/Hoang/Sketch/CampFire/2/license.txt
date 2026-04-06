@@ -1,0 +1,11 @@
+Model Information:
+* title:	Campfire with Pot
+* source:	https://sketchfab.com/3d-models/campfire-with-pot-9ef57c8f32f04576990a3b9f145249b5
+* author:	EsiHere (https://sketchfab.com/EsiHere)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Campfire with Pot" (https://sketchfab.com/3d-models/campfire-with-pot-9ef57c8f32f04576990a3b9f145249b5) by EsiHere (https://sketchfab.com/EsiHere) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
